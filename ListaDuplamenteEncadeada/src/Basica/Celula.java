@@ -1,5 +1,6 @@
 package Basica;
 
+
 public class Celula {
 	
 	private Celula proxima;
