@@ -2,6 +2,7 @@ package Lista;
 
 import Basica.Celula;
 
+
 public class ListaDuplamente {
 	
 	int totalElementos = 0;
