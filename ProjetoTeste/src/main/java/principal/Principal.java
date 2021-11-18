@@ -33,16 +33,16 @@ public class Principal {
 		//System.out.println(categoria.getDescricao());
 		
 	    Cliente cl = new Cliente(); 
-		/*cl.setNome("Josef");
+	    cl.setNome("Josef");
 		cl.setEmail("josef@teste.com.br");
 		cl.setEndereco("rua Batatinha");
-		cl.setFone("123");*/
+		cl.setFone("123");
 	    
-	    //cl = cd.buscarClienteId(2);
+	    cl = cd.buscarClienteId(2);
 	    
-	    //cl.setNome("Teste Update");
+	    cl.setNome("Teste Update");
 	    
-	    //cd.atualizarCliente(cl);
+	    cd.atualizarCliente(cl);
 	    
 	   cd.listarClientesPorCategoria().forEach(System.out::println);
 		
@@ -52,6 +52,7 @@ public class Principal {
 		//cd.adiciona(cl, categoria);
 		
 		
+	   System.out.println("Teste Git");
 		
 		
 		
